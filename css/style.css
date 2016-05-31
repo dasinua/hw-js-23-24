@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.todo-item {
+    border-bottom: 2px solid black;
+    width: 450px;
+    line-height: 20px;
+    font-size: 14px;
+
+}
+
+.item-edit,
+.item-delete {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.item-delete {
+    color: red;
+}
+
+input {
+    width: 450px;
+    border: none;
+    border-bottom: 2px solid black;
+    line-height: 20px;
+}
+
+.contlrols {
+    margin-left: 40px;
+}
+
+.contlrols,
+.editControls {
+    position: relative;
+    width: 450px;
+}
+
+.item-add,
+.item-save {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 3px 9px 0px 0px;
+    cursor: pointer;
+}
+
+.title {
+    width: 490px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
